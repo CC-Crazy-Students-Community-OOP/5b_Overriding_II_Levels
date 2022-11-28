@@ -6,8 +6,7 @@ public class Level_1 extends Level_2{
     private int levelPoints = 5;
 
     protected String play(){
-       
-        if (points < this.levelPoints) {
+        if ( points < this.levelPoints ) {
             points++;
             return "Yahoo, " + levelName + " here, and I have " + points + " points!";
         } else {
